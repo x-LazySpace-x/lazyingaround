@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "lazyingaround",
+	"version": "${version}",
+	"name": "lazyingaround",
+	"description": "I added the BEST Quality of Life feature for real!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lazyingaround/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"lazyspace.lazyingaround.Lazyingaround"
+		],
+		"fabric-datagen": [
+			"lazyspace.lazyingaround.LazyingaroundDataGenerator"
+		],
+		"Client": [
+			"lazyspace.lazyingaround.LazyingaroundClient"
+		]
+	},
+	"mixins": [
+		"lazyingaround.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
