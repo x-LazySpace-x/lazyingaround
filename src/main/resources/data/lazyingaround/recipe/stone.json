@@ -1,6 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "minecraft:cobblestone",
+  "ingredient": "#lazyingaround:stone_convertable",
   "result": {
     "id": "minecraft:stone"
   }
