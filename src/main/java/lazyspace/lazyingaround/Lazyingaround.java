@@ -1,5 +1,6 @@
 package lazyspace.lazyingaround;
 
+import lazyspace.lazyingaround.registry.ModBlocks;
 import lazyspace.lazyingaround.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,6 +21,7 @@ public class Lazyingaround implements ModInitializer {
 		LOGGER.info("Nvm it worked!");
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 
 	public static Identifier id(String path) {
