@@ -5,6 +5,6 @@ import lazyspace.lazyingaround.Lazyingaround;
 public class ModItems {
 
     public static void registerModItems() {
-        Lazyingaround.LOGGER.info("Nvm it worked!");
+        Lazyingaround.LOGGER.info(Lazyingaround.MOD_ID + " items got registered :>");
     }
 }
